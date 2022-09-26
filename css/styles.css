@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open Sans', sans-serif;
+}
+
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --bg-gray: #CCCCCC;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+#space {
+    background-color: var(--color-blue);
+    height: 400px;
+    padding: 40px 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-space h2 {
+    color: var(--color-white);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.space-card {
+    background-color: var(--bg-gray);
+    height: 127px;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.space-card h3 {
+    font-size: 20px;
+}
+
+.space-card p {
+    font-size: 14px;
+}
+
+.modalities {
+    background-color: var(--color-white);
+    height: 860px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modalities h2 {
+    color: var(--color-red);
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.card-modalities {
+    background-color: var(--color-blue);
+    height: 106px;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--color-white);
+}
+
+.card-modalities h3 {
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+footer {
+    background-color: var(--color-black);
+    height: 262px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px 0;
+    padding-top: 55px;
+}
+
+.footer-content img {
+    height: 30px;
+    margin: 5px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.footer-description {
+    color: var(--color-white);
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.footer-description address {
+    display: flex;
+    justify-content: center;
+}
