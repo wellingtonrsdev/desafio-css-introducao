@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-light-gray: #CCCCCC;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,157 +15,120 @@
     font-family: 'open Sans', sans-serif;
 }
 
-:root {
-    --color-red: #F03C42;
-    --color-blue: #222374;
-    --color-black: #000000;
-    --color-white: #FFFFFF;
-    --bg-gray: #CCCCCC;
-}
-
 a,
 a:hover {
     text-decoration: none;
-    color: var(--color-white);
-    font-size: 14px;
+    color: unset;
 }
 
 header {
     background-color: var(--color-red);
+    color: var(--color-white);
     height: 100px;
     display: flex;
     align-items: center;
+    padding: o 20px;
 }
 
-.container {
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  nav h1 {
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  #rooms {
+    background-color: var(--color-blue);
+  }
+  
+  #sports {
+    background-color: var(--color-white);
+  }
+  
+  #rooms h2 {
+    color: var(--color-white);
+  }
+  
+  #sports h2 {
+    color: var(--color-red);
+  }
+  
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container h1 {
-    color: var(--color-white);
-    font-size: 18px;
-}
-
-.nav-icon {
+  }
+  
+  .social-container {
     display: flex;
     align-items: center;
-}
-
-.nav-icon img {
+  }
+  
+  .social-container img {
     width: 30px;
     margin-right: 10px;
-}
-
-#space {
-    background-color: var(--color-blue);
-    height: 400px;
-    padding: 40px 0;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.container-space h2 {
-    color: var(--color-white);
-    font-size: 32px;
-    margin-bottom: 40px;
-}
-
-.space-card {
-    background-color: var(--bg-gray);
-    height: 127px;
+  }
+  
+  .card {
     border-radius: 8px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 20px 0;
-}
-
-.space-card h3 {
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
     font-size: 20px;
-}
-
-.space-card p {
+  }
+  
+  .card p {
     font-size: 14px;
-}
-
-.modalities {
-    background-color: var(--color-white);
-    height: 860px;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.modalities h2 {
-    color: var(--color-red);
-    margin-bottom: 40px;
-    font-size: 32px;
-}
-
-.card-modalities {
+  }
+  
+  .card-gray {
+    background-color: var(--color-light-gray);
+    color: var(--color-black);
+  }
+  
+  .card-blue {
     background-color: var(--color-blue);
-    height: 106px;
-    border-radius: 8px;
-    margin: 20px 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 14px;
     color: var(--color-white);
-}
-
-.card-modalities h3 {
-    color: var(--color-white);
-    font-size: 20px;
-}
-
-footer {
+  }
+  
+  footer {
     background-color: var(--color-black);
-    height: 262px;
-    margin-top: 20px;
-}
-
-.footer-content {
+    color: var(--color-white);
+    padding: 60px 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-bottom: 60px 0;
-    padding-top: 55px;
-}
-
-.footer-content img {
-    height: 30px;
-    margin: 5px;
-}
-
-.footer-links {
+  }
+  
+  .footer-social {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-info {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-right: 10px;
-}
-
-.footer-links a {
-    font-size: 14px;
-    margin-left: 5px;
-}
-
-.footer-description {
-    color: var(--color-white);
-    font-size: 14px;
-    margin-top: 25px;
-}
-
-.footer-description address {
-    display: flex;
-    justify-content: center;
-}
+  }
