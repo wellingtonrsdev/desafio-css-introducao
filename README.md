@@ -1,4 +1,8 @@
-### DESAFIO: CSS Introdução
+<h1 align="center">DESAFIO: CSS Introdução</h1>
+<p align='center'> 
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+</p>
 
 Desafio proposto pela escola Devsuperior no módulo de HTML  e CSS, a tarefa é criar um projeto HTML/CSS correspondente ao design a seguir:
 
